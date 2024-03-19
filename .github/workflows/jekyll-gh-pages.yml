@@ -37,9 +37,6 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Build 
-        run: bundle add webrick
-
 
   # Deployment job
   deploy:
